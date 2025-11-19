@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "subtitle": "Strategic Software Architect · Tech Leader · Engineering Manager",
+    "location": "📍 Santa Catarina, Brazil",
+    "locationDot": "•",
+    "workingGlobally": "Working globally 🌎",
+    "summary": "I'm an accomplished software architecture professional with {{years}} years of experience designing and optimizing high-performance software solutions across fintech, SaaS, and telecom sectors. Currently serving as Software Engineering Manager at Sears while maintaining my role as Senior Software Specialist at Singular Ideas.",
+    "viewResume": "View Resume",
+    "connectLinkedIn": "Connect on LinkedIn"
+  },
+  "profile": {
+    "role1": "Software Engineering Manager · Sears",
+    "role2": "Senior Software Specialist · Singular Ideas"
+  },
+  "sections": {
+    "whatIDo": "What I Do",
+    "featuredProjects": "Featured Projects"
+  },
+  "whatIDo": {
+    "engineeringLeadership": {
+      "title": "🏗️ Engineering Leadership",
+      "description": "Leading global teams to develop innovative, scalable systems that drive business growth and deliver real value."
+    },
+    "cloudSystems": {
+      "title": "☁️ Cloud & Real-Time Systems",
+      "description": "Designing resilient, cloud-native applications on AWS with a focus on scalability, reliability, monitoring, and observability."
+    },
+    "innovationDevOps": {
+      "title": "🚀 Innovation & DevOps",
+      "description": "Championing modern architectures, AI integration, DevOps best practices, and continuous improvement across engineering teams."
+    },
+    "pudimMastery": {
+      "title": "🍮 Pudim Mastery",
+      "description": "Certified pudim enthusiast, trouble-shooter, and occasionally a trouble-creator. Good architecture pairs well with good dessert."
+    }
+  },
+  "projects": {
+    "pudim": {
+      "title": "🍮 pudim.dev",
+      "description": "Experiments, thoughts, and pudim-powered ideas around software, architecture, and innovation."
+    },
+    "carimbo": {
+      "title": "carimbo.vip",
+      "description": "A modern way to manage access, tickets, and stamps with a simple, delightful experience."
+    },
+    "visitSite": "Visit site →"
+  },
+  "footer": {
+    "copyright": "© {{year}} Luis Machado Reis · Built with React ·",
+    "github": "@luismr"
+  }
+}
+

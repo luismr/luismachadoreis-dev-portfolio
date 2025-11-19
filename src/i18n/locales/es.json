@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "greeting": "Hola, soy",
+    "subtitle": "Arquitecto de Software Estratégico · Líder Técnico · Gerente de Ingeniería",
+    "location": "📍 Santa Catarina, Brasil",
+    "locationDot": "•",
+    "workingGlobally": "Trabajando globalmente 🌎",
+    "summary": "Soy un profesional experimentado en arquitectura de software con {{years}} años de experiencia diseñando y optimizando soluciones de software de alto rendimiento en los sectores de fintech, SaaS y telecomunicaciones. Actualmente me desempeño como Gerente de Ingeniería de Software en Sears, manteniendo también mi rol como Especialista Senior en Software en Singular Ideas.",
+    "viewResume": "Ver Currículum",
+    "connectLinkedIn": "Conectar en LinkedIn"
+  },
+  "profile": {
+    "role1": "Gerente de Ingeniería de Software · Sears",
+    "role2": "Especialista Senior en Software · Singular Ideas"
+  },
+  "sections": {
+    "whatIDo": "Lo Que Hago",
+    "featuredProjects": "Proyectos Destacados"
+  },
+  "whatIDo": {
+    "engineeringLeadership": {
+      "title": "🏗️ Liderazgo en Ingeniería",
+      "description": "Liderando equipos globales para desarrollar sistemas innovadores y escalables que impulsan el crecimiento empresarial y entregan valor real."
+    },
+    "cloudSystems": {
+      "title": "☁️ Sistemas en la Nube y Tiempo Real",
+      "description": "Diseñando aplicaciones resilientes y nativas de la nube en AWS con enfoque en escalabilidad, confiabilidad, monitoreo y observabilidad."
+    },
+    "innovationDevOps": {
+      "title": "🚀 Innovación y DevOps",
+      "description": "Promoviendo arquitecturas modernas, integración de IA, mejores prácticas de DevOps y mejora continua en equipos de ingeniería."
+    },
+    "pudimMastery": {
+      "title": "🍮 Maestría en Pudim",
+      "description": "Entusiasta certificado de pudim, solucionador de problemas y ocasionalmente creador de problemas. Buena arquitectura combina bien con buen postre."
+    }
+  },
+  "projects": {
+    "pudim": {
+      "title": "🍮 pudim.dev",
+      "description": "Experimentos, pensamientos e ideas impulsadas por pudim sobre software, arquitectura e innovación."
+    },
+    "carimbo": {
+      "title": "carimbo.vip",
+      "description": "Una forma moderna de gestionar acceso, entradas y sellos con una experiencia simple y agradable."
+    },
+    "visitSite": "Visitar sitio →"
+  },
+  "footer": {
+    "copyright": "© {{year}} Luis Machado Reis · Construido con React ·",
+    "github": "@luismr"
+  }
+}
+
