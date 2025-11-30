@@ -37,12 +37,20 @@
   },
   "projects": {
     "pudim": {
-      "title": "🍮 pudim.dev",
+      "title": "pudim.dev",
       "description": "Experiments, thoughts, and pudim-powered ideas around software, architecture, and innovation."
     },
     "carimbo": {
       "title": "carimbo.vip",
       "description": "A modern way to manage access, tickets, and stamps with a simple, delightful experience."
+    },
+    "singularideas": {
+      "title": "singularideas.com.br",
+      "description": "Innovative software solutions and strategic technology consulting for businesses seeking digital transformation."
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Check out my homelab projects, open source contributions, and code repositories."
     },
     "visitSite": "Visit site →"
   },

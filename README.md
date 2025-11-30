@@ -61,7 +61,14 @@ npm run preview
 
 ## 🧪 Testing
 
-This project uses Vitest and React Testing Library for comprehensive testing.
+This project uses Vitest and React Testing Library for comprehensive testing. The test suite covers:
+
+- Component rendering and functionality
+- All featured projects (pudim.dev, carimbo.vip, singularideas.com.br, GitHub)
+- Project links and URLs
+- Project images and logos
+- Internationalization
+- Social links and navigation
 
 ```bash
 # Run tests in watch mode
@@ -128,7 +135,10 @@ luismachadoreis.dev/
 ├── public/                 # Static assets
 │   ├── favicon.svg        # Pudim favicon 🍮
 │   ├── luis-profile.png   # Profile image
-│   └── carimbo-vip.png    # Project logo
+│   ├── pudim-dev.svg      # Pudim.dev project logo
+│   ├── carimbo-vip.png    # Carimbo.vip project logo
+│   ├── singularideas-com-br.png  # Singular Ideas project logo
+│   └── github.png         # GitHub project logo
 ├── src/
 │   ├── components/         # React components
 │   │   ├── LanguageSelector.jsx
@@ -183,6 +193,8 @@ The project uses custom CSS with CSS variables for theming:
 - Responsive design with mobile-first approach
 - Smooth animations and transitions
 - Modern card-based layout
+- 4-column grid layout for projects and "What I Do" sections
+- Responsive breakpoints: 4 columns → 2 columns (tablet) → 1 column (mobile)
 
 ## 🔧 Available Scripts
 
@@ -265,8 +277,10 @@ This project is open source and available under the MIT License.
 - **LinkedIn**: [luismachadoreis](https://linkedin.com/in/luismachadoreis)
 - **GitHub Profile**: [@luismr](https://github.com/luismr)
 - **Projects**:
-  - [pudim.dev](https://pudim.dev) - Dev Pudim Score Calculator
-  - [carimbo.vip](https://carimbo.vip) - Access, tickets, and stamps management
+  - [pudim.dev](https://pudim.dev) - Experiments, thoughts, and pudim-powered ideas around software, architecture, and innovation
+  - [carimbo.vip](https://carimbo.vip) - A modern way to manage access, tickets, and stamps with a simple, delightful experience
+  - [singularideas.com.br](https://singularideas.com.br) - Innovative software solutions and strategic technology consulting
+  - [GitHub](https://github.com/luismr) - Check out my homelab projects, open source contributions, and code repositories
 
 ---
 

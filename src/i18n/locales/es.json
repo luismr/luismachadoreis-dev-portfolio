@@ -37,12 +37,20 @@
   },
   "projects": {
     "pudim": {
-      "title": "🍮 pudim.dev",
+      "title": "pudim.dev",
       "description": "Experimentos, pensamientos e ideas impulsadas por pudim sobre software, arquitectura e innovación."
     },
     "carimbo": {
       "title": "carimbo.vip",
       "description": "Una forma moderna de gestionar acceso, entradas y sellos con una experiencia simple y agradable."
+    },
+    "singularideas": {
+      "title": "singularideas.com.br",
+      "description": "Soluciones innovadoras de software y consultoría estratégica en tecnología para empresas que buscan transformación digital."
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Echa un vistazo a mis proyectos de homelab, contribuciones open source y repositorios de código."
     },
     "visitSite": "Visitar sitio →"
   },

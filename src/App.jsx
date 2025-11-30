@@ -23,6 +23,7 @@ function App() {
       title: t("projects.pudim.title"),
       url: "https://pudim.dev",
       description: t("projects.pudim.description"),
+      image: "/pudim-dev.svg",
     },
     {
       id: "carimbo",
@@ -30,6 +31,20 @@ function App() {
       url: "https://carimbo.vip",
       description: t("projects.carimbo.description"),
       image: "/carimbo-vip.png",
+    },
+    {
+      id: "singularideas",
+      title: t("projects.singularideas.title"),
+      url: "https://singularideas.com.br",
+      description: t("projects.singularideas.description"),
+      image: "/singularideas-com-br.png",
+    },
+    {
+      id: "github",
+      title: t("projects.github.title"),
+      url: "https://github.com/luismr",
+      description: t("projects.github.description"),
+      image: "/github.png",
     },
   ];
 
