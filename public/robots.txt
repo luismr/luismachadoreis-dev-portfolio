@@ -3,6 +3,6 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (if you add one later)
-# Sitemap: https://luismachadoreis.dev/sitemap.xml
+# Sitemap location
+Sitemap: https://luismachadoreis.dev/sitemap.xml
 
