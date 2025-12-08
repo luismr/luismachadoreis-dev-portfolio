@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
+import SEO from "./components/SEO";
 
 const SOCIAL_LINKS = {
   github: "https://github.com/luismr",
@@ -50,12 +51,13 @@ function App() {
 
   return (
     <div className="app">
+      <SEO />
       <div className="app-shell">
-        <div className="language-selector-wrapper">
+        <nav className="language-selector-wrapper" aria-label="Language selector">
           <LanguageSelector />
-        </div>
+        </nav>
         {/* HERO */}
-        <header className="hero">
+        <header className="hero" role="banner">
           <div className="hero-text">
             <p className="hero-greeting">{t("hero.greeting")}</p>
             <h1 className="hero-title">Luis Machado Reis</h1>
@@ -138,9 +140,10 @@ function App() {
           </aside>
         </header>
 
-        {/* WHAT I DO */}
-        <section className="section">
-          <h2 className="section-title">{t("sections.whatIDo")}</h2>
+        <main>
+          {/* WHAT I DO */}
+          <section className="section" aria-labelledby="what-i-do-heading">
+          <h2 id="what-i-do-heading" className="section-title">{t("sections.whatIDo")}</h2>
 
           <div className="cards-grid">
             <div className="card">
@@ -171,18 +174,19 @@ function App() {
         </section>
 
         {/* FEATURED PROJECTS */}
-        <section className="section">
-          <h2 className="section-title">{t("sections.featuredProjects")}</h2>
+        <section className="section" aria-labelledby="featured-projects-heading">
+          <h2 id="featured-projects-heading" className="section-title">{t("sections.featuredProjects")}</h2>
 
           <div className="projects-grid">
             {PROJECTS.map((project) => (
-              <a
-                key={project.id}
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                className="project-card"
-              >
+              <article key={project.id} className="project-card-wrapper">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-card"
+                  aria-label={`${project.title} - ${project.description}`}
+                >
                 <div className="project-header">
                   {project.image && (
                     <img
@@ -196,12 +200,14 @@ function App() {
                 <p className="project-description">{project.description}</p>
                 <span className="project-link">{t("projects.visitSite")}</span>
               </a>
+              </article>
             ))}
           </div>
         </section>
+        </main>
 
         {/* FOOTER */}
-        <footer className="footer">
+        <footer className="footer" role="contentinfo">
           <p>
             {t("footer.copyright", { year: currentYear })}{" "}
             <a
