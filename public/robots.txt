@@ -1,0 +1,8 @@
+# robots.txt for luismachadoreis.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://luismachadoreis.dev/sitemap.xml
+
