@@ -27,12 +27,16 @@ vi.mock('react-i18next', () => ({
         'whatIDo.innovationDevOps.description': 'Test description',
         'whatIDo.pudimMastery.title': '🍮 Pudim Mastery',
         'whatIDo.pudimMastery.description': 'Test description',
+        'projects.brickfolio.title': 'brickfolio.online',
+        'projects.brickfolio.description': 'Test description',
         'projects.pudim.title': 'pudim.dev',
         'projects.pudim.description': 'Test description',
         'projects.carimbo.title': 'carimbo.vip',
         'projects.carimbo.description': 'Test description',
         'projects.singularideas.title': 'singularideas.com.br',
         'projects.singularideas.description': 'Test description',
+        'projects.mcpPrompts.title': 'MCP Prompts',
+        'projects.mcpPrompts.description': 'Test description',
         'projects.github.title': 'GitHub',
         'projects.github.description': 'Test description',
         'projects.visitSite': 'Visit site →',
@@ -78,9 +82,11 @@ describe('App', () => {
 
   it('renders all projects', () => {
     render(<App />);
+    expect(screen.getByText('brickfolio.online')).toBeInTheDocument();
     expect(screen.getByText('pudim.dev')).toBeInTheDocument();
     expect(screen.getByText('carimbo.vip')).toBeInTheDocument();
     expect(screen.getByText('singularideas.com.br')).toBeInTheDocument();
+    expect(screen.getByText('MCP Prompts')).toBeInTheDocument();
     // GitHub appears in both social links and projects, so check for project card
     const githubElements = screen.getAllByText('GitHub');
     expect(githubElements.length).toBeGreaterThanOrEqual(2); // At least social link and project
@@ -109,25 +115,26 @@ describe('App', () => {
     render(<App />);
     const images = screen.getAllByRole('img');
     const projectImages = images.filter(img => 
+      img.getAttribute('src')?.includes('brickfolio-online.png') ||
       img.getAttribute('src')?.includes('pudim-dev.svg') ||
       img.getAttribute('src')?.includes('carimbo-vip.png') ||
       img.getAttribute('src')?.includes('singularideas-com-br.png') ||
       img.getAttribute('src')?.includes('github.png')
     );
-    expect(projectImages.length).toBe(4);
+    expect(projectImages.length).toBe(6);
   });
 
   it('renders project descriptions', () => {
     render(<App />);
     const descriptions = screen.getAllByText('Test description');
-    // Should have 4 project descriptions
-    expect(descriptions.length).toBeGreaterThanOrEqual(4);
+    // Should have 6 project descriptions
+    expect(descriptions.length).toBeGreaterThanOrEqual(6);
   });
 
   it('renders visit site links for all projects', () => {
     render(<App />);
     const visitSiteLinks = screen.getAllByText('Visit site →');
-    expect(visitSiteLinks.length).toBe(4);
+    expect(visitSiteLinks.length).toBe(6);
   });
 });
 
