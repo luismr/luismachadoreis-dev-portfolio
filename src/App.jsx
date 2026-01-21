@@ -20,6 +20,13 @@ function App() {
 
   const PROJECTS = [
     {
+      id: "brickfolio",
+      title: t("projects.brickfolio.title"),
+      url: "https://brickfolio.online",
+      description: t("projects.brickfolio.description"),
+      image: "/brickfolio-online.png",
+    },
+    {
       id: "pudim",
       title: t("projects.pudim.title"),
       url: "https://pudim.dev",
@@ -39,6 +46,13 @@ function App() {
       url: "https://singularideas.com.br",
       description: t("projects.singularideas.description"),
       image: "/singularideas-com-br.png",
+    },
+    {
+      id: "mcpPrompts",
+      title: t("projects.mcpPrompts.title"),
+      url: "https://prompts.luismachadoreis.dev",
+      description: t("projects.mcpPrompts.description"),
+      image: "/pudim-dev.svg",
     },
     {
       id: "github",

@@ -36,6 +36,10 @@
     }
   },
   "projects": {
+    "brickfolio": {
+      "title": "brickfolio.online",
+      "description": "Plataforma de valorização de imóveis em tempo real e gestão financeira centralizada que elimina planilhas."
+    },
     "pudim": {
       "title": "pudim.dev",
       "description": "Experimentos, pensamentos e ideias movidas a pudim sobre software, arquitetura e inovação."
@@ -47,6 +51,10 @@
     "singularideas": {
       "title": "singularideas.com.br",
       "description": "Soluções inovadoras de software e consultoria estratégica em tecnologia para empresas que buscam transformação digital."
+    },
+    "mcpPrompts": {
+      "title": "MCP Prompts",
+      "description": "Uma coleção de prompts e recursos para desenvolvimento e integração do Model Context Protocol (MCP)."
     },
     "github": {
       "title": "GitHub",
