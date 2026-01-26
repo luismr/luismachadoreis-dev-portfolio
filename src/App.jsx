@@ -7,7 +7,7 @@ const SOCIAL_LINKS = {
   github: "https://github.com/luismr",
   instagram: "https://instagram.com/luismachadoreis",
   linkedin: "https://linkedin.com/in/luismachadoreis",
-  resume: "https://github.com/luismr/resume",
+  resume: "https://github.com/luismr/resume/blob/main/RESUME.md",
 };
 
 function App() {
